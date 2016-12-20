@@ -38,7 +38,7 @@ public class TransactionController {
 			transactionService.addTransaction(transactionToBeAdded);
 	 
 		
-	   	return null;
+	   	return transactionToBeAdded;
 	}
 	
 }
